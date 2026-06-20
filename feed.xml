@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://github.com/ryo08271154/rss-test-feed" xmlns:dc="https://github.com/ryo08271154/rss-test-feed" xmlns:content="https://github.com/ryo08271154/rss-test-feed" xmlns:media="https://github.com/ryo08271154/rss-test-feed">
+  <channel>
+    <title>[TEST FEED] RSSリーダー表示テスト用フィード</title>
+    <link>https://github.com/ryo08271154/rss-test-feed</link>
+    <description>【テスト用】このフィードはRSSリーダーアプリの表示確認を目的としたサンプルデータです。記事の内容はすべて架空のものです。実在する人物・団体・出来事とは一切関係ありません。</description>
+    <language>ja</language>
+    <lastBuildDate>Sat, 20 Jun 2026 12:00:00 +0900</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2026 12:00:00 +0900</pubDate>
+    <managingEditor>test@example.test (テスト用ダミーアカウント)</managingEditor>
+    <webMaster>test@example.test (テスト用ダミーアカウント)</webMaster>
+    <generator>RSS Test Feed Generator v1.0 - FOR TESTING ONLY</generator>
+    <docs>https://github.com/ryo08271154/rss-test-feed</docs>
+    <ttl>60</ttl>
+    <image>
+      <url>https://github.com/ryo08271154/rss-test-feed</url>
+      <title>[TEST FEED] RSSリーダー表示テスト用フィード</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <atom:link href="https://github.com/ryo08271154/rss-test-feed" rel="self" type="application/rss+xml"/>
+
+    <!-- 記事1: 標準的な記事 -->
+    <item>
+      <title>量子もつれ通信プロトコル「QEP-7」が星系間データ転送の新記録を樹立</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>銀河連邦通信局は本日、量子もつれ通信プロトコル「QEP-7」を用いた実験で、ケンタウルス座α星系までの距離（約4.37光年）においてリアルタイムデータ転送に成功したと発表しました。従来のQEP-6と比較して転送帯域幅が約340%向上しています。</description>
+      <pubDate>Sat, 20 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>量子通信</category>
+      <category>星系間ネットワーク</category>
+      <dc:creator>田中 星彦</dc:creator>
+      <media:content url="images/quantum_communication.png" medium="image" type="image/png"/>
+      <media:thumbnail url="images/quantum_communication.png"/>
+    </item>
+
+    <!-- 記事2: HTML含む説明文（content:encoded） -->
+    <item>
+      <title>反重力合金「フロートニウム」の量産に成功 ― 宇宙エレベーター建設に弾み</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>オービタル・マテリアルズ社が反重力合金「フロートニウム」の量産技術を確立。宇宙エレベーター計画が大きく前進。</description>
+      <content:encoded><![CDATA[
+        <h2>フロートニウムとは</h2>
+        <p>反重力合金<strong>「フロートニウム」</strong>は、特殊な結晶構造により重力場を部分的に遮蔽する性質を持つ架空の超合金です。</p>
+        <ul>
+          <li>密度：通常のチタン合金の約1/50</li>
+          <li>引張強度：カーボンナノチューブの約3倍</li>
+          <li>重力遮蔽率：最大72%</li>
+        </ul>
+        <p>オービタル・マテリアルズ社のCEO、<em>アリア・ヴォストーク</em>氏は記者会見で次のように述べました：</p>
+        <blockquote>「これは人類の宇宙進出における最大のブレイクスルーです。2030年までに赤道上に最初の宇宙エレベーターを完成させる計画です。」</blockquote>
+        <img src="images/floatonium_alloy.png" alt="フロートニウムの結晶構造" />
+      ]]></content:encoded>
+      <pubDate>Sat, 20 Jun 2026 08:30:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>素材科学</category>
+      <category>宇宙開発</category>
+      <dc:creator>佐藤 宙美</dc:creator>
+      <media:content url="images/floatonium_alloy.png" medium="image" type="image/png"/>
+      <media:thumbnail url="images/floatonium_alloy.png"/>
+    </item>
+
+    <!-- 記事3: 非常に長いタイトル -->
+    <item>
+      <title>【速報】第17回銀河系プログラミングコンテスト決勝戦 ― 地球代表チーム「ブルーマーブル」が人工知能カテゴリで準優勝、審査員からは「炭素系生命体としては驚異的な論理構築能力」と高評価</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>アンドロメダ銀河の中心ステーション「ネビュラ・ハブ」で開催された第17回銀河系プログラミングコンテストにおいて、地球代表チーム「ブルーマーブル」がAIカテゴリで準優勝を果たしました。優勝はシリウスB星系の量子意識体チーム「Ψ-Collective」でした。</description>
+      <pubDate>Fri, 19 Jun 2026 22:15:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>プログラミング</category>
+      <category>銀河イベント</category>
+      <media:content url="images/galactic_contest.png" medium="image" type="image/png"/>
+      <media:thumbnail url="images/galactic_contest.png"/>
+    </item>
+
+    <!-- 記事4: 短いタイトルと最小限の情報 -->
+    <item>
+      <title>火星の天気</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>本日の火星（ニューオリンピア市）：砂嵐注意報。気温 -23℃ / -67℃。風速 45m/s。視界不良。</description>
+      <pubDate>Fri, 19 Jun 2026 18:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>天気</category>
+      <media:content url="images/mars_weather.png" medium="image" type="image/png"/>
+      <media:thumbnail url="images/mars_weather.png"/>
+    </item>
+
+    <!-- 記事5: 特殊文字・記号を含む -->
+    <item>
+      <title>「∞エナジー社」の株価が急騰 ― 永久機関&lt;Type-Ω&gt;の特許取得で時価総額が¥∞に迫る？</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>∞エナジー社（証券コード：♾️-001）が「永久機関 Type-Ω」の銀河特許を取得したとの報道を受け、同社株価は前日比+∞%（理論値）の急騰を記録。アナリストは「E=mc²を超える新理論に基づく装置であり、市場の期待は &amp; 懸念は "前例なき水準" に達している」とコメント。&lt;注意：この記事は架空です&gt;</description>
+      <pubDate>Fri, 19 Jun 2026 15:30:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>金融</category>
+      <category>エネルギー</category>
+      <dc:creator>山田 &amp; 鈴木 共同取材班</dc:creator>
+      <media:content url="images/infinity_energy.png" medium="image" type="image/png"/>
+      <media:thumbnail url="images/infinity_energy.png"/>
+    </item>
+
+    <!-- 記事6: エンクロージャ（音声ポッドキャスト） -->
+    <item>
+      <title>🎙️ ポッドキャスト第42回「タイムトラベル観光の倫理問題」</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>今週のポッドキャストでは、時間旅行観光業界で問題となっている「歴史改変リスク」と「時間線汚染」について、時空間倫理学の権威であるクロノス大学のテンポラル教授をゲストに迎えて議論します。リスナーからの質問「自分の先祖に会いに行くのは合法か？」にもお答えします。</description>
+      <enclosure url="https://github.com/ryo08271154/rss-test-feed" length="45000000" type="audio/mpeg"/>
+      <pubDate>Fri, 19 Jun 2026 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>ポッドキャスト</category>
+      <category>倫理</category>
+      <dc:creator>MC ディメンション</dc:creator>
+      <media:content url="images/time_travel_podcast.png" medium="image" type="image/png"/>
+      <media:thumbnail url="images/time_travel_podcast.png"/>
+    </item>
+
+    <!-- 記事7: 英語記事 -->
+    <item>
+      <title>Breakthrough: Dyson Sphere Prototype Successfully Harvests 0.001% of Sol's Energy Output</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>The Kardashev Advancement Initiative (KAI) announced today that its Dyson Sphere prototype, designated "Helios Ring Alpha," has successfully captured and transmitted 0.001% of the Sun's total energy output to receiving stations on Earth, Mars, and the Jovian moons. This milestone marks humanity's first step toward becoming a Type II civilization on the Kardashev scale.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>Megastructures</category>
+      <category>Energy</category>
+      <dc:creator>Dr. Elena Vasquez</dc:creator>
+    </item>
+
+    <!-- 記事8: 複数カテゴリ・長い説明文 -->
+    <item>
+      <title>深海都市「竜宮」グランドオープン ― 海底1万メートルでの生活が現実に</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>マリアナ海溝に建設された世界初の恒久的深海都市「竜宮（りゅうぐう）」が本日グランドオープンを迎えました。水深10,920メートルに位置するこの都市は、最大収容人数5,000人、ナノダイヤモンド強化ガラスのドーム構造を採用し、1,100気圧に耐える設計となっています。住居エリア、商業エリア、研究施設、水族館（外を泳ぐ深海生物をそのまま観察可能）、さらには深海温泉を利用したスパリゾートも併設。初年度の入居希望者はすでに12万人を超えており、抽選倍率は24倍に達しています。竜宮市長に就任した海野深氏は「人類の生活圏を海底にまで広げるこの歴史的プロジェクトに関われて光栄です」と述べました。</description>
+      <pubDate>Thu, 18 Jun 2026 20:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>都市開発</category>
+      <category>海洋技術</category>
+      <category>建築</category>
+      <category>観光</category>
+      <category>不動産</category>
+      <dc:creator>海野 記者</dc:creator>
+    </item>
+
+    <!-- 記事9: guidがpermalinkではない -->
+    <item>
+      <title>銀河鉄道999便、ダイヤ改正のお知らせ（7月1日より）</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>銀河鉄道株式会社は、7月1日より999便のダイヤを改正いたします。主な変更点：地球（メガロポリス駅）発の始発が現行の06:00から05:30に繰り上げ。アンドロメダ行き直通便を1日3本から5本に増便。冥王星経由便は廃止となり、代替としてカイパーベルト急行を新設。定期券をご利用のお客様は、最寄りの銀河鉄道窓口で更新手続きをお願いいたします。</description>
+      <pubDate>Thu, 18 Jun 2026 14:00:00 +0900</pubDate>
+      <guid isPermaLink="false">galaxy-railway-schedule-20260618</guid>
+      <category>交通</category>
+    </item>
+
+    <!-- 記事10: 説明なし（descriptionが空） -->
+    <item>
+      <title>【メンテナンス告知】次元転送ゲート全系統を6月25日に一斉点検</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <pubDate>Thu, 18 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>お知らせ</category>
+    </item>
+
+    <!-- 記事11: 非常に古い日付 -->
+    <item>
+      <title>アーカイブ：人類初の光速突破から50年を振り返る</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>1976年6月20日、試験船「イカロス号」が人類史上初めて光速の壁を突破してから半世紀。当時の乗組員へのインタビューと、超光速航行技術の変遷を辿る特別企画記事。（※この記事はアーカイブ記事です。表示テスト用に古い日付を設定しています。）</description>
+      <pubDate>Sun, 20 Jun 1976 00:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>アーカイブ</category>
+      <category>宇宙開発史</category>
+    </item>
+
+    <!-- 記事12: 未来の日付 -->
+    <item>
+      <title>【予定記事】第1回 全宇宙カレーグランプリ開催決定</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>2030年8月15日、木星ステーション「ジュピター・ゲートウェイ」にて第1回全宇宙カレーグランプリが開催されます。参加資格は知的生命体であること。審査基準は「味」「香り」「見た目」「独創性」「食べた後の幸福度（脳波測定）」の5項目。エントリー受付は2029年1月1日から。地球代表選考会は別途開催予定。</description>
+      <pubDate>Sat, 15 Aug 2030 00:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>イベント</category>
+      <category>グルメ</category>
+    </item>
+
+    <!-- 記事13: 画像エンクロージャ -->
+    <item>
+      <title>写真特集：土星リング上に出現した謎の幾何学模様</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>太陽系外縁天文台が土星のBリング上に、直径約2,000kmに及ぶ正六角形の幾何学模様を発見しました。自然現象か、未知の知的存在によるものか、現在調査が進められています。</description>
+      <enclosure url="https://github.com/ryo08271154/rss-test-feed" length="2500000" type="image/jpeg"/>
+      <pubDate>Wed, 17 Jun 2026 16:45:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>天文学</category>
+      <category>写真</category>
+      <dc:creator>星空 撮影班</dc:creator>
+    </item>
+
+    <!-- 記事14: マルチバイト文字・絵文字多用 -->
+    <item>
+      <title>🚀🌍➡️🌙 月面コンビニ「ルナマート」が24時間営業開始 🏪✨</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>🌙 月面基地「トランキリティ・シティ」にオープンした初のコンビニエンスストア「ルナマート🏪」が、本日より24時間営業を開始しました。🍙おにぎり（月面米使用）、☕宇宙コーヒー、🍜フリーズドライラーメンなどを販売。💰支払いは銀河クレジット💳のみ対応。重力が1/6のため、商品棚には特殊マグネットを使用🧲。店長の月野うさぎ🐰さんは「地球の皆さんもぜひお越しください🚀」とコメント。</description>
+      <pubDate>Wed, 17 Jun 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>月面生活</category>
+      <category>ビジネス</category>
+    </item>
+
+    <!-- 記事15: リンクなし（link要素省略） -->
+    <item>
+      <title>【号外】異次元からの公式コンタクトを確認 ― 国連宇宙局が緊急声明</title>
+      <description>国連宇宙局（UNSA）は本日未明、「平行次元#7-Bに存在する知的文明体からの公式な接触要請を受信・確認した」との緊急声明を発表しました。声明によると、通信は既知のいかなる物理法則にも依拠しない方法で行われ、内容は「次元間友好条約の締結提案」とのこと。詳細は追って報道します。</description>
+      <pubDate>Tue, 16 Jun 2026 03:00:00 +0900</pubDate>
+      <guid isPermaLink="false">breaking-interdimensional-contact-20260616</guid>
+      <category>速報</category>
+      <category>異次元外交</category>
+    </item>
+
+    <!-- 記事16: 連載・シリーズ記事 -->
+    <item>
+      <title>【連載 第3回】テレポーテーション時代の宅配業者はどうなる？ ― 物流革命の光と影</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>テレポーテーション網が普及してから3年。ヤマト宇宙便をはじめとする大手物流企業は軒並み経営危機に陥っているが、意外な形で生き残りを図る業者も現れている。前回（第2回）では量子転送の仕組みを解説したが、今回は実際に廃業・転業した配達員たちへのインタビューをお届けする。</description>
+      <pubDate>Mon, 15 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>連載</category>
+      <category>テレポーテーション</category>
+      <category>物流</category>
+      <dc:creator>小林 転送</dc:creator>
+    </item>
+
+    <!-- 記事17: 訂正・お詫び記事 -->
+    <item>
+      <title>【訂正】先月掲載「木星に第80衛星を発見」記事について</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>先月2026年5月15日に掲載した「木星に第80衛星を発見、太陽系最多記録を更新」の記事において、衛星の直径を「約3.2km」と記載しておりましたが、正しくは「約32km」の誤りでした。読者の皆様にご迷惑をおかけしたことを深くお詫びします。なお記事本文はすでに修正済みです。</description>
+      <pubDate>Mon, 15 Jun 2026 08:30:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>訂正</category>
+      <category>天文学</category>
+    </item>
+
+    <!-- 記事18: ランキング記事 -->
+    <item>
+      <title>2026年上半期「住みたい惑星ランキング」1位はまたも火星！ 月は3位に後退</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>不動産情報サービス「SUUMO銀河版」が発表した2026年上半期の住みたい惑星ランキング。1位：火星（4年連続）、2位：タイタン（土星の衛星、温暖化が進み住みやすくなったと回答）、3位：月（利便性は高いが家賃が高騰）、4位：エウロパ（海底リゾートが人気）、5位：ガニメデ（新市街地が開発中）。地球はランク外のため「地元回帰」が話題に。</description>
+      <pubDate>Sun, 14 Jun 2026 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>ランキング</category>
+      <category>不動産</category>
+      <category>惑星間生活</category>
+      <dc:creator>編集部</dc:creator>
+    </item>
+
+    <!-- 記事19: インタビュー記事 -->
+    <item>
+      <title>「AIと人間の違いはもはや感情だけ」― 第7世代汎用AI「アテナ」開発者インタビュー</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>先日、チューリング試験の改定版である「新チューリング試験2026」で史上初の満点を記録した汎用AI「アテナ」。開発チームを率いるノヴァ・インテリジェンス社のチーフサイエンティスト、ルシア・デル・ソル博士に開発の裏側を聞いた。「最大の難関は、アテナが自分自身に疑問を持ち始めたときでした」と語る博士の表情は、どこか複雑そうだった。</description>
+      <pubDate>Sun, 14 Jun 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>インタビュー</category>
+      <category>人工知能</category>
+      <dc:creator>大野 智子</dc:creator>
+    </item>
+
+    <!-- 記事20: レビュー記事（商品レビュー） -->
+    <item>
+      <title>【製品レビュー】パーソナル次元シールド「DimenShield Pro X」を3ヶ月使ってみた</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>定価298,000銀河クレジット（約30万円相当）の個人用次元シールド「DimenShield Pro X」を3ヶ月間実際に使用してレビュー。◎良い点：次元ズレによる量子酔いが完全に解消、起動が前モデルより2秒速い。△気になる点：バッテリーが8時間しか持たない、折りたたみ時に厚い（23mm）。総評：通勤で次元間移動をする人なら買い。月1〜2回程度の利用なら割高感あり。★★★★☆（4/5）</description>
+      <pubDate>Sat, 13 Jun 2026 14:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>製品レビュー</category>
+      <category>ガジェット</category>
+      <dc:creator>テスト レビュアー</dc:creator>
+    </item>
+
+    <!-- 記事21: 非常に短い本文 -->
+    <item>
+      <title>火星で新種の地衣類を発見</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>詳細は後日報道予定。</description>
+      <pubDate>Sat, 13 Jun 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>科学</category>
+    </item>
+
+    <!-- 記事22: コラム・オピニオン -->
+    <item>
+      <title>【コラム】クローン倫理法施行から10年が経って、私が思うこと</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>2016年に施行されたクローン倫理法は、クローン人間の法的地位を「完全な市民」として認めた画期的な立法だった。あれから10年。クローンである私自身の目線から、この社会がどれだけ変わり、あるいは変わらなかったかを振り返ってみたい。（寄稿：市民ライター アリス・ミラー・Ⅱ）</description>
+      <pubDate>Fri, 12 Jun 2026 20:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>コラム</category>
+      <category>倫理</category>
+      <category>社会</category>
+      <dc:creator>アリス・ミラー・Ⅱ（寄稿）</dc:creator>
+    </item>
+
+    <!-- 記事23: 数字・データ多め -->
+    <item>
+      <title>【データ】2025年度の宇宙旅行統計 ― 旅客数1億人超え、平均費用は12万円まで低下</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>国際宇宙旅行協会（ISTA）が発表した2025年度統計。総旅客数：1億230万人（前年比+34%）。目的地別シェア：月軌道クルーズ48%、月面着陸22%、火星中継ステーション18%、その他12%。平均旅行費用：120,400円（5年前比-82%）。事故率：0.000031%（航空機の約1/3）。リピーター率：67%。最多利用年齢層：60〜70代（38%）。</description>
+      <pubDate>Fri, 12 Jun 2026 15:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>統計</category>
+      <category>宇宙旅行</category>
+      <category>観光</category>
+    </item>
+
+    <!-- 記事24: 動画エンクロージャ -->
+    <item>
+      <title>【動画】初めてテレポーテーションに乗ってみた！リアクション動画</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>「テレポちゃんねる」人気動画クリエイターのノヴァちゃんが、生まれて初めてテレポーテーション端末を体験！「一瞬で東京からニューヨークに着いた時の顔」が話題になっています。チャンネル登録者数620万人突破記念の特別企画。</description>
+      <enclosure url="https://github.com/ryo08271154/rss-test-feed" length="380000000" type="video/mp4"/>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>動画</category>
+      <category>テレポーテーション</category>
+    </item>
+
+    <!-- 記事25: プレスリリース風 -->
+    <item>
+      <title>【プレスリリース】株式会社ネオ東京テック、シリーズCで総額300億円の資金調達を完了</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>株式会社ネオ東京テック（本社：東京都新宿区西新宿9-99-99、代表取締役CEO：架空 太郎）は本日、シリーズC資金調達ラウンドにおいて総額300億円の調達を完了したことをお知らせいたします。本ラウンドにはオービタル・キャピタルをリード投資家として、銀河VC、タイムラインファンド、∞パートナーズが参加しました。調達資金は主に量子脳インターフェース「NeuroLink-X」の量産体制構築に充当します。</description>
+      <pubDate>Thu, 11 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>プレスリリース</category>
+      <category>スタートアップ</category>
+      <category>資金調達</category>
+    </item>
+
+    <!-- 記事26: Q&A形式 -->
+    <item>
+      <title>Q&amp;A：テレパシー通信アプリ「マインドリンク」の使い方 ― よくある質問10選</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>Q1. 思っていることが全部相手に伝わってしまいますか？ → A. いいえ、送信したい思考のみ選択して送れます。Q2. プライバシーモードはありますか？ → A. あります。Q3. 動物と会話できますか？ → A. 犬・猫には対応。魚類は開発中。Q4. 睡眠中に意図せず送信されることはありますか？ → A. 「おやすみモード」を有効にしてください。Q5. 料金は？ → A. 月額980円（思考量無制限）。</description>
+      <pubDate>Thu, 11 Jun 2026 08:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>テクノロジー</category>
+      <category>FAQ</category>
+      <dc:creator>サポートチーム</dc:creator>
+    </item>
+
+    <!-- 記事27: 複数著者 -->
+    <item>
+      <title>共同研究：人工光合成プラントが砂漠を森林に変えるまでの全記録</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>サハラ砂漠北部に設置された人工光合成プラント群が、わずか18ヶ月でサッカーコート5,000面分（3,500ha）の植生回復に成功した。東京大学地球再生研究所・カイロ工科大学・ニューアトランティス環境財団の3機関による共同研究成果を、当メディアが独占入手。植物成長促進分子「クロロフォトン」の役割を詳説する。</description>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>環境科学</category>
+      <category>研究</category>
+      <dc:creator>中村 緑, Omar Hassan, 共同研究チーム</dc:creator>
+    </item>
+
+    <!-- 記事28: スポーツ記事 -->
+    <item>
+      <title>ゼロG格闘技「オービタルMMA」世界王座決定戦 ― 地球人選手がテレパス系異星人を判定勝ちで下す</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>国際宇宙スポーツ連盟（ISSF）主催のゼロ重力格闘技「オービタルMMA」世界王座決定戦が月面アリーナで開催。地球代表・拳士 剛（32）がシリウス系テレパス選手Zrx-9との5ラウンドの激闘を制し、2年連続の世界王座を防衛した。試合後に拳士は「思考を読まれても、心技体は読めない」とコメント。テレパス選手への対策として脳内「フェイク思考」戦術を用いたことを明かした。</description>
+      <pubDate>Wed, 10 Jun 2026 22:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>スポーツ</category>
+      <category>格闘技</category>
+      <category>宇宙イベント</category>
+      <dc:creator>スポーツ部</dc:creator>
+    </item>
+
+    <!-- 記事29: 料理・グルメ -->
+    <item>
+      <title>宇宙食の概念を変えた ― ミシュラン3つ星シェフが作る「真空凍結薫製フォアグラの量子再構成」</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>木星ステーション「ジュピター・ゲートウェイ」の最上階に店を構えるレストラン「Cosmos」。シェフのジャン＝ポール・ドゥ・ヌーヴォー氏が考案した「真空凍結薫製フォアグラの量子再構成」は、食材を量子レベルで分解・再構成することで地球大気圏外では不可能だった食感を実現。コース料金は一人100万銀河クレジット（予約待ち2.3光年）。</description>
+      <pubDate>Tue, 09 Jun 2026 12:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>グルメ</category>
+      <category>宇宙生活</category>
+      <dc:creator>食文化 記者</dc:creator>
+    </item>
+
+    <!-- 記事30: 政治・行政 -->
+    <item>
+      <title>銀河連邦議会、「意識のデジタルバックアップ権」を承認 ― 死の定義が再び問われる</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>銀河連邦議会は17日、すべての知的生命体が自身の意識を量子サーバーにバックアップする権利を保障する「意識デジタル保全権法」を賛成多数で可決した。これにより肉体の死後も意識データが法的人格を持つことが認められるが、「本物の死」派からは強い反発も。日本政府は「国内法との整合性を検討する」との声明を発表した。</description>
+      <pubDate>Tue, 09 Jun 2026 18:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>政治</category>
+      <category>法律</category>
+      <category>倫理</category>
+    </item>
+
+    <!-- 記事31: 天気予報風（定型文） -->
+    <item>
+      <title>【6月20日】太陽系各地の天気予報</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>■地球（東京）：晴れ一時雷雨。気温32℃。宇宙線指数：低め。■月（トランキリティ市）：晴れ、無風。気温 -173℃〜127℃（日照面）。■火星（ニューオリンピア）：砂嵐継続注意報。■木星軌道：太陽フレア警報レベル2（電子機器の保護設定を推奨）。■土星リング内：粒子密度高め、低速飛行推奨。■冥王星（旧）：終日猛吹雪。変わらず。</description>
+      <pubDate>Sat, 20 Jun 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>天気</category>
+      <category>定期配信</category>
+    </item>
+
+    <!-- 記事32: 科学解説（長文） -->
+    <item>
+      <title>今さら聞けない「ワープドライブ」の仕組み ― アルクビエレ方程式から実用化までをわかりやすく解説</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>1994年にアルクビエレ博士が理論的に提唱した「空間を収縮・膨張させて移動する」ワープドライブ。2019年に必要エネルギー量が木星質量相当から「コーヒーカップ数杯分」にまで圧縮できる理論が発表され、2024年には実験的な「ミニワープバブル」の生成に成功。本記事では（1）基本原理、（2）必要な負のエネルギー物質「エキゾチックマター」とは何か、（3）現在の実用化レベルと課題、（4）民間宇宙船への搭載時期の見通し、の4点をQ＆A形式で解説する。全8,000字。</description>
+      <pubDate>Mon, 08 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>科学解説</category>
+      <category>宇宙工学</category>
+      <dc:creator>理系ライター 渡辺 物理</dc:creator>
+    </item>
+
+    <!-- 記事33: ゲーム・エンタメ -->
+    <item>
+      <title>VRゲーム「GALAXY WARS: Rebirth」累計プレイヤー数50億人突破 ― 仮想宇宙のGDPが実世界の一部国家を超える</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>オンラインVRゲーム「GALAXY WARS: Rebirth」の月間アクティブプレイヤーが50億人を突破。ゲーム内経済（通貨：ガラクシーコイン）の年間GDPは実世界換算で約8兆円に達し、ベネズエラやクロアチアのGDPを上回った。ゲーム内で「大統領」に就任した18歳のユーザー「NovaStar_2008」が現実世界のメディアに頻繁に登場し話題。</description>
+      <pubDate>Mon, 08 Jun 2026 20:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>ゲーム</category>
+      <category>エンタメ</category>
+      <category>経済</category>
+    </item>
+
+    <!-- 記事34: 健康・医療 -->
+    <item>
+      <title>ナノロボット手術が標準医療に ― 「開腹手術」は2028年にも廃止へ</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>厚生労働省（宇宙保健局を含む）は、体内注入型ナノロボット「メディボット Mk.9」を標準手術法として正式承認した。がん・心疾患・脳血管疾患のほぼすべてに対応し、手術時間は平均37分（従来の開腹手術比-91%）、入院不要、副作用ほぼゼロ。2028年を目途に旧来の開腹手術は一部の訓練目的を除き廃止となる見通し。健康保険の適用範囲も拡大される。</description>
+      <pubDate>Sun, 07 Jun 2026 11:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>医療</category>
+      <category>科学技術</category>
+      <dc:creator>医療部</dc:creator>
+    </item>
+
+    <!-- 記事35: 教育 -->
+    <item>
+      <title>文科省、小学校から「量子プログラミング」を必修化 ― 2028年度より全国実施</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>文部科学省は、2028年度から小学3年生以上を対象に量子コンピュータプログラミングを必修化すると発表。現行の「情報」の授業に週1コマを追加し、専用教材「はじめての量子くん」を配布。教員向けの研修プログラムも2027年から開始。民間では「量子学童」サービスも急増しており、保護者からは「子供が何を勉強しているのか親が全くついていけない」との声も。</description>
+      <pubDate>Sun, 07 Jun 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>教育</category>
+      <category>量子コンピュータ</category>
+    </item>
+
+    <!-- 記事36: ファッション -->
+    <item>
+      <title>2026年秋冬コレクション：「重力操作ドレス」がパリ・宇宙コレクションを席巻</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>今年のパリ・宇宙コレクションで最も注目を集めたのは、新鋭デザイナー カスミ・シラカワの「重力操作ドレス（GravDress™）」。内蔵された超小型反重力ユニットにより、裾や袖が使用者の意図した方向に「浮遊」する。素材は月面シルクと火星砂漠ダストを織り込んだ独自生地。価格は380万円から。「着る人の感情を布で表現したかった」とシラカワ。</description>
+      <pubDate>Sat, 06 Jun 2026 15:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>ファッション</category>
+      <category>宇宙テック</category>
+      <dc:creator>ファッション部</dc:creator>
+    </item>
+
+    <!-- 記事37: 求人・雇用 -->
+    <item>
+      <title>【求人情報】火星植民地運営会社「マルス・コープ」が日本人スタッフを200名募集</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>火星植民地の運営を手がけるマルス・コープ株式会社が、日本国内から農業エンジニア・医療スタッフ・教師・IT技術者を計200名募集。勤務地：火星ニューオリンピア市。勤務期間：2年（延長可）。年収：地球基準の2倍〜3倍（火星手当含む）。福利厚生：往復宇宙船チケット、専用居住ドーム、火星産食材支給。応募条件：健康診断合格、宇宙適応訓練の修了。</description>
+      <pubDate>Sat, 06 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>求人</category>
+      <category>火星</category>
+      <category>キャリア</category>
+    </item>
+
+    <!-- 記事38: 法律・規制 -->
+    <item>
+      <title>タイムトラベル規制法（仮称）、来月から意見公募 ― 「過去改変」の定義が争点に</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>内閣府の「時間移動対策準備室」は、タイムトラベルに関する包括的規制法案の意見公募（パブリックコメント）を7月1日から開始すると発表した。論点は（1）過去への移動禁止の範囲（2）タイムパラドックス発生時の法的責任（3）未来情報の市場利用の是非（4）時間移動業者の免許制度。SF作家協会は「フィクションのネタが現実になったことは喜ばしいが、規制は慎重に」とコメント。</description>
+      <pubDate>Fri, 05 Jun 2026 17:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>法律</category>
+      <category>政治</category>
+      <category>タイムトラベル</category>
+    </item>
+
+    <!-- 記事39: SNS・バズ記事 -->
+    <item>
+      <title>「宇宙ステーションで焼いたピザ」の写真がSNSで1.2億いいね ― 無重力ピザの"浮遊チーズ"が話題</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>国際宇宙ステーション滞在中の宇宙飛行士・星野 宙さんが投稿した「ステーション内で焼いたマルゲリータピザ」の写真が、SNS上で1.2億いいねを突破しSNS史上最多記録を更新。無重力下でチーズが球状に浮かび上がった見た目が「芸術的すぎる」「食べたい」と世界中で大反響。冷凍ピザメーカー各社は「宇宙飛行士仕様チーズ」の商品化を競うように発表している。</description>
+      <pubDate>Fri, 05 Jun 2026 13:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>バズ</category>
+      <category>SNS</category>
+      <category>宇宙生活</category>
+      <dc:creator>トレンド部</dc:creator>
+    </item>
+
+    <!-- 記事40: 環境・エコ -->
+    <item>
+      <title>宇宙ゴミ（スペースデブリ）回収ロボット「クリーナー号」、稼働1年で軌道上の危険物99%を除去</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>JAXAとESAが共同開発した軌道上デブリ回収ロボット「クリーナー号」が稼働開始から1年で低軌道上のスペースデブリの99%を除去したと発表。回収総量は約28万個（重量換算で約2,900トン）。回収されたデブリの70%は地上で再資源化された。軌道衝突リスクは5年前比で97%減少し、人工衛星の損失件数もゼロを維持している。</description>
+      <pubDate>Thu, 04 Jun 2026 14:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>環境</category>
+      <category>宇宙開発</category>
+      <category>ロボティクス</category>
+    </item>
+
+    <!-- 記事41: 文化・芸術 -->
+    <item>
+      <title>【美術展】「ゼロ重力絵画」の第一人者 ― 宇宙アーティスト ARU の個展が六本木で開幕</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>宇宙ステーションを制作拠点とするアーティストARU（アル）の個展「GRAVITY ZERO」が本日、東京・六本木の銀河アートセンターで開幕した。絵の具を無重力空間で飛散させることで生まれる偶然性と、AI補助による精密な意図的制御を組み合わせた独自の技法「スペースドリッピング」で制作された30点を展示。入場料：3,000円。会期：6月20日〜8月31日。</description>
+      <pubDate>Sat, 20 Jun 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>文化</category>
+      <category>芸術</category>
+      <dc:creator>文化部</dc:creator>
+    </item>
+
+    <!-- 記事42: 海外ニュース（英語タイトル・日本語本文） -->
+    <item>
+      <title>【海外発】"First Martian-Born Human Celebrates 5th Birthday" ― 火星生まれ第一世代が成長中</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>火星ニューオリンピア市出身の「カイ・ヤマダ」くんが5歳の誕生日を迎えた。カイくんは記録上初めて火星で生まれた人間として知られており、火星の重力（地球の約0.38倍）下で育ったことから骨格・筋肉の発達が地球生まれとは異なる可能性があるとして、複数の大学が継続的な医学調査を実施中。本人は「火星が大好き。でもいつか地球の海を見てみたい」と話した。</description>
+      <pubDate>Thu, 04 Jun 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>社会</category>
+      <category>火星</category>
+      <category>海外ニュース</category>
+    </item>
+
+    <!-- 記事43: 旅行ガイド風 -->
+    <item>
+      <title>初めての月旅行ガイド ― 持ち物・注意点・おすすめスポット完全まとめ【2026年版】</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>月旅行デビューを考えている方向けの完全ガイド。【持ち物】低重力適応サプリ、宇宙線防護クリーム（SPF∞）、酸素バックアップパック。【注意点】月面では緊急連絡先を必ず登録。砂嵐（月塵嵐）情報を毎朝確認。地球への帰還便は3日前までに要予約。【おすすめスポット】アポロ11号着陸地点（世界遺産登録済）、シャックルトンクレーター展望台、虹の入り江リゾート、月面温泉「ルナスパ」。</description>
+      <pubDate>Wed, 03 Jun 2026 11:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>旅行</category>
+      <category>月面生活</category>
+      <category>ガイド</category>
+    </item>
+
+    <!-- 記事44: タイトルのみ（descriptionもlinkもない最小構成） -->
+    <item>
+      <title>【未配信】次号予告：木星大赤斑の縮小に新説</title>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0900</pubDate>
+      <guid isPermaLink="false">draft-jupiter-red-spot-20260603</guid>
+    </item>
+
+    <!-- 記事45: 非常に長い description -->
+    <item>
+      <title>徹底解説：「意識転送」の現状と未来 ― 技術・倫理・法律・宗教・哲学から見た完全ガイド</title>
+      <link>https://github.com/ryo08271154/rss-test-feed</link>
+      <description>【技術的現状】意識転送技術（コンシャスネス・アップロード）は2024年に初めてマウスでの概念実証に成功し、2026年現在は霊長類段階の実験が進んでいる。完全な人間意識のデジタル化には推定1,000兆ビットのデータ量が必要とされ、現行の量子ストレージでも実現には近づいているものの、リアルタイムでの「忠実度99.9999%」転送の達成は2030年代以降と見込まれている。【倫理的課題】転送後の「コピー」は元の人物と同一か否かという問いは哲学的に未解決であり、転送された意識が人格同一性を主張できるかどうかは各国で立法論争が続く。宗教界では魂の扱いをめぐりバチカン・イスラム法学委員会・仏教各宗派がそれぞれ異なる見解を示している。【法律の現状】前述の銀河連邦「意識デジタル保全権法」の通過により、少なくとも連邦加盟国では転送後意識の法的人格が認められる方向に動いているが、日本では「存命中の意識転送」と「死後の意識保全」を法的に区別するかどうかが未定のままである。【社会への影響】もし意識転送が普及した場合、保険・年金・相続・婚姻制度はいずれも根本的な再設計が必要となる。「永遠に生きる金持ち」と「死を受け入れざるを得ない貧困層」の格差問題も懸念される。本記事は上記テーマを6万字にわたって徹底解説する全5章構成の特集記事の概要です。</description>
+      <pubDate>Tue, 02 Jun 2026 10:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
+      <category>テクノロジー</category>
+      <category>倫理</category>
+      <category>社会</category>
+      <category>法律</category>
+      <category>哲学</category>
+      <category>宗教</category>
+      <dc:creator>特集編集チーム</dc:creator>
+    </item>
+
+  </channel>
+</rss>
