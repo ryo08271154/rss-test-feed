@@ -12,12 +12,6 @@ rss-test-feed/
 ├── README.md          # このファイル
 ├── feed.xml           # RSS 2.0 フィード本体（45記事）
 └── images/            # 記事サムネイル画像
-    ├── quantum_communication.png   # 記事1用
-    ├── floatonium_alloy.png        # 記事2用
-    ├── galactic_contest.png        # 記事3用
-    ├── mars_weather.png            # 記事4用
-    ├── infinity_energy.png         # 記事5用
-    └── time_travel_podcast.png     # 記事6用
 ```
 
 ## 📋 記事一覧とテストパターン

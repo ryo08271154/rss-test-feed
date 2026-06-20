@@ -21,6 +21,71 @@
     </image>
     <atom:link href="https://github.com/ryo08271154/rss-test-feed" rel="self" type="application/rss+xml"/>
 
+    <!-- 記事: 日常系ダミーニュース1 -->
+    <item>
+      <title>第4回 全国スズメ見守り大会、優勝は「ひまわりの種」を駆使した佐藤さん</title>
+      <link>https://github.com/ryo08271154/rss-test-feed/item-sparrow</link>
+      <description>今年で4回目を迎える「全国スズメ見守り大会」が開催され、独自の配合による「特製ひまわりの種」でスズメとの信頼関係を築き上げた佐藤さん（65）が圧倒的なスコアで優勝を果たしました。「コツは急に動かないこと」と佐藤さんは語っています。</description>
+      <pubDate>Sat, 20 Jun 2026 11:45:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed/item-sparrow</guid>
+      <category>地域・イベント</category>
+      <dc:creator>日常ニュース班</dc:creator>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/sparrow.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/sparrow.png"/>
+    </item>
+
+    <!-- 記事: 日常系ダミーニュース2 -->
+    <item>
+      <title>幻の果実「ポムポムメロン」、50年ぶりの豊作で地元は大騒ぎ</title>
+      <link>https://github.com/ryo08271154/rss-test-feed/item-melon</link>
+      <description>独特の弾力と強烈な甘みが特徴とされる架空のフルーツ「ポムポムメロン」が、記録的な豊作を迎えています。地元農家によると「今年の天候が奇跡的に生育条件と一致した」とのこと。直売所には早朝から長蛇の列ができています。</description>
+      <pubDate>Sat, 20 Jun 2026 11:15:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed/item-melon</guid>
+      <category>グルメ・農業</category>
+      <dc:creator>グルメ特捜隊</dc:creator>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/melon.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/melon.png"/>
+    </item>
+
+    <!-- 記事: 日常系ダミーニュース3 -->
+    <item>
+      <title>「絶対に起きられない目覚まし時計」、発売初日で10万個完売</title>
+      <link>https://github.com/ryo08271154/rss-test-feed/item-alarm</link>
+      <description>設定時間になると小川のせせらぎや鳥のさえずりなどの極上のヒーリングサウンドを奏で、二度寝を強力に誘発する「絶対に起きられない目覚まし時計」が本日発売され、即日完売しました。購入者からは「最高の遅刻を体験できた」と絶賛の声が上がっています。</description>
+      <pubDate>Sat, 20 Jun 2026 10:50:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed/item-alarm</guid>
+      <category>ガジェット・製品</category>
+      <dc:creator>トレンドウォッチャー</dc:creator>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/alarm.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/alarm.png"/>
+    </item>
+
+    <!-- 記事: 日常系ダミーニュース4 -->
+    <item>
+      <title>町内のアイドル猫「タマ」、1日警察署長に就任も開始5分で昼寝</title>
+      <link>https://github.com/ryo08271154/rss-test-feed/item-cat</link>
+      <description>交通安全キャンペーンの一環として、地元で愛される三毛猫の「タマ」が1日警察署長に任命されました。しかし、署長室の特製クッションが予想以上に快適だったため、就任式開始からわずか5分で熟睡。そのまま任期を終えました。</description>
+      <pubDate>Sat, 20 Jun 2026 10:30:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed/item-cat</guid>
+      <category>どうぶつ</category>
+      <dc:creator>ほのぼのニュース</dc:creator>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/cat.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/cat.png"/>
+    </item>
+
+    <!-- 記事: 日常系ダミーニュース5 -->
+    <item>
+      <title>近所の公園に出現した謎の巨大オブジェ、正体は小学生の夏休みの工作</title>
+      <link>https://github.com/ryo08271154/rss-test-feed/item-art</link>
+      <description>先週末からふれあい公園の広場に設置されていた高さ3メートルの謎の現代アート風オブジェについて、近所に住む小学5年生のケンタ君（11）が「僕の夏休みの工作です」と名乗り出ました。「段ボールをつなげていたら止まらなくなった」と笑顔で語っています。</description>
+      <pubDate>Sat, 20 Jun 2026 10:15:00 +0900</pubDate>
+      <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed/item-art</guid>
+      <category>ローカル・社会</category>
+      <dc:creator>地域ネットワーク</dc:creator>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/art.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/art.png"/>
+    </item>
+
     <!-- 記事1: 標準的な記事 -->
     <item>
       <title>量子もつれ通信プロトコル「QEP-7」が星系間データ転送の新記録を樹立</title>
