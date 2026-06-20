@@ -31,8 +31,8 @@
       <category>量子通信</category>
       <category>星系間ネットワーク</category>
       <dc:creator>田中 星彦</dc:creator>
-      <media:content url="images/quantum_communication.png" medium="image" type="image/png"/>
-      <media:thumbnail url="images/quantum_communication.png"/>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/quantum_communication.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/quantum_communication.png"/>
     </item>
 
     <!-- 記事2: HTML含む説明文（content:encoded） -->
@@ -50,15 +50,15 @@
         </ul>
         <p>オービタル・マテリアルズ社のCEO、<em>アリア・ヴォストーク</em>氏は記者会見で次のように述べました：</p>
         <blockquote>「これは人類の宇宙進出における最大のブレイクスルーです。2030年までに赤道上に最初の宇宙エレベーターを完成させる計画です。」</blockquote>
-        <img src="images/floatonium_alloy.png" alt="フロートニウムの結晶構造" />
+        <img src="https://ryo08271154.github.io/rss-test-feed/images/floatonium_alloy.png" alt="フロートニウムの結晶構造" />
       ]]></content:encoded>
       <pubDate>Sat, 20 Jun 2026 08:30:00 +0900</pubDate>
       <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
       <category>素材科学</category>
       <category>宇宙開発</category>
       <dc:creator>佐藤 宙美</dc:creator>
-      <media:content url="images/floatonium_alloy.png" medium="image" type="image/png"/>
-      <media:thumbnail url="images/floatonium_alloy.png"/>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/floatonium_alloy.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/floatonium_alloy.png"/>
     </item>
 
     <!-- 記事3: 非常に長いタイトル -->
@@ -70,8 +70,8 @@
       <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
       <category>プログラミング</category>
       <category>銀河イベント</category>
-      <media:content url="images/galactic_contest.png" medium="image" type="image/png"/>
-      <media:thumbnail url="images/galactic_contest.png"/>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/galactic_contest.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/galactic_contest.png"/>
     </item>
 
     <!-- 記事4: 短いタイトルと最小限の情報 -->
@@ -82,8 +82,8 @@
       <pubDate>Fri, 19 Jun 2026 18:00:00 +0900</pubDate>
       <guid isPermaLink="true">https://github.com/ryo08271154/rss-test-feed</guid>
       <category>天気</category>
-      <media:content url="images/mars_weather.png" medium="image" type="image/png"/>
-      <media:thumbnail url="images/mars_weather.png"/>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/mars_weather.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/mars_weather.png"/>
     </item>
 
     <!-- 記事5: 特殊文字・記号を含む -->
@@ -96,8 +96,8 @@
       <category>金融</category>
       <category>エネルギー</category>
       <dc:creator>山田 &amp; 鈴木 共同取材班</dc:creator>
-      <media:content url="images/infinity_energy.png" medium="image" type="image/png"/>
-      <media:thumbnail url="images/infinity_energy.png"/>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/infinity_energy.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/infinity_energy.png"/>
     </item>
 
     <!-- 記事6: エンクロージャ（音声ポッドキャスト） -->
@@ -111,8 +111,8 @@
       <category>ポッドキャスト</category>
       <category>倫理</category>
       <dc:creator>MC ディメンション</dc:creator>
-      <media:content url="images/time_travel_podcast.png" medium="image" type="image/png"/>
-      <media:thumbnail url="images/time_travel_podcast.png"/>
+      <media:content url="https://ryo08271154.github.io/rss-test-feed/images/time_travel_podcast.png" medium="image" type="image/png"/>
+      <media:thumbnail url="https://ryo08271154.github.io/rss-test-feed/images/time_travel_podcast.png"/>
     </item>
 
     <!-- 記事7: 英語記事 -->
